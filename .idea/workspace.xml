@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6ccce62-ab2c-47c4-9d63-a454ead950c3" name="Changes" comment="0.0.1. Initial original project from webinar.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/app/ItemsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/DefaultStaticResourceProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/Dispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/CreateItemRequestProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/CreateItemRequestProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/GetItemsRequestProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/GetItemsRequestProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +38,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="3BtA2wndnEDow9ymKviboRGd9Zv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,9 +53,9 @@
   "keyToString": {
     "Application.Application.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "hw32",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/JavaProjects/otus_1_basics/otus-java-basic-http-server/src/main/java/ru/otus/java/basic/httpserver/processors",
+    "last_opened_file_path": "E:/JavaProjects/otus_1_basics/otus-java-basic-http-server",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,9 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaProjects\otus_1_basics\otus-java-basic-http-server" />
       <recent name="E:\JavaProjects\otus_1_basics\otus-java-basic-http-server\src\main\java\ru\otus\java\basic\httpserver\processors" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.otus.java.basic.httpserver.processors" />
       <recent name="ru.otus.java.basic.httpserver.app" />
       <recent name="ru.otus.java.basic.httpserver" />
     </key>
