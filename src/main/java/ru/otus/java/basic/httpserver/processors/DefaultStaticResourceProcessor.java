@@ -1,10 +1,10 @@
 package ru.otus.java.basic.httpserver.processors;
 
-import ru.otus.java.basic.httpserver.HttpRequest;
+import ru.otus.java.basic.httpserver.request.HttpRequest;
+import ru.otus.java.basic.httpserver.response.Response;
 
 import java.io.IOException;
 import java.io.OutputStream;
-import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -17,12 +17,10 @@ public class DefaultStaticResourceProcessor implements RequestProcessor {
         Path filePath = Paths.get("static/", filename);
         byte[] fileData = Files.readAllBytes(filePath);
 
-        String response = "" +
-                "HTTP/1.1 200 OK\r\n" +
-                "Content-Length: " + fileData.length + "\r\n" +
-                // "Content-Disposition: attachment;filename=" + filename + "\r\n" +
-                "\r\n";
-        output.write(response.getBytes(StandardCharsets.UTF_8));
+        Response response = new Response("");
+        response.addHeader("Content-Length", String.valueOf(fileData.length));
+
+        output.write(response.getBytes());
         output.write(fileData);
     }
 }

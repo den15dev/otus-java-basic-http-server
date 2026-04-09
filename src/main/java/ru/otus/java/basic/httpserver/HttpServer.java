@@ -1,5 +1,7 @@
 package ru.otus.java.basic.httpserver;
 
+import ru.otus.java.basic.httpserver.request.HttpRequest;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -7,8 +9,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class HttpServer {
-    private int port;
-    private Dispatcher dispatcher;
+    private final int port;
+    private final Dispatcher dispatcher;
 
     public HttpServer(int port) {
         this.port = port;
@@ -40,6 +42,7 @@ public class HttpServer {
                         dispatcher.execute(request, clientSocket.getOutputStream());
 
                     } catch (IOException e) {
+                        System.err.println("Произошла ошибка при обработке запроса: " + e.getMessage());
                         throw new RuntimeException(e);
                     }
                 });
