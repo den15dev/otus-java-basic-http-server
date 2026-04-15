@@ -1,4 +1,4 @@
-package ru.otus.java.basic.httpserver;
+package ru.otus.java.basic.httpserver.request;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -4,19 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6ccce62-ab2c-47c4-9d63-a454ead950c3" name="Changes" comment="0.0.1. Initial original project from webinar.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/app/ItemsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/DefaultStaticResourceProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/123.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/index.js" afterDir="false" />
+    <list default="true" id="e6ccce62-ab2c-47c4-9d63-a454ead950c3" name="Changes" comment="0.0.2. Adding from webinar, part 2.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/response/AbstractResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/response/HtmlResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/response/HttpStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/response/JsonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/response/Response.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/Dispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/HttpMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/request/HttpMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/request/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/CalculatorRequestProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/CalculatorRequestProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/CreateItemRequestProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/CreateItemRequestProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/DefaultNotFoundRequestProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/DefaultNotFoundRequestProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/DefaultStaticResourceProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/DefaultStaticResourceProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/GetItemsRequestProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/GetItemsRequestProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/HelloRequestProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/HelloRequestProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/RequestProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/httpserver/processors/RequestProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,21 +55,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/JavaProjects/otus_1_basics/otus-java-basic-http-server",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw33&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/JavaProjects/otus_1_basics/otus-java-basic-http-server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JavaProjects\otus_1_basics\otus-java-basic-http-server" />
@@ -81,7 +87,7 @@
       <module name="otus-java-basic-http-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.otus.java.basic.httpserver.*" />
+          <option name="PATTERN" value="ru.otus.java.basic.httpserver.request.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775297788637</updated>
       <workItem from="1775297789598" duration="6205000" />
+      <workItem from="1775724320951" duration="6416000" />
     </task>
     <task id="LOCAL-00001" summary="0.0.1. Initial original project from webinar.">
       <option name="closed" value="true" />
@@ -121,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775298729843</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0.0.2. Adding from webinar, part 2.">
+      <option name="closed" value="true" />
+      <created>1775676807676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775676807676</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0.0.1. Initial original project from webinar." />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.1. Initial original project from webinar." />
+    <MESSAGE value="0.0.2. Adding from webinar, part 2." />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.2. Adding from webinar, part 2." />
   </component>
 </project>

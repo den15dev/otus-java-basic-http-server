@@ -2,6 +2,7 @@ package ru.otus.java.basic.httpserver;
 
 import ru.otus.java.basic.httpserver.app.ItemsService;
 import ru.otus.java.basic.httpserver.processors.*;
+import ru.otus.java.basic.httpserver.request.HttpRequest;
 
 import java.io.IOException;
 import java.io.OutputStream;
